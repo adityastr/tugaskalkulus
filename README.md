@@ -1,4 +1,6 @@
 # tugaskalkulus
+![979UNDIRA](https://github.com/adityastr/tugaskalkulus/assets/98254633/46fdd8ed-972c-4daf-91c7-6163da669ea5)
+
 TUGAS BESAR KALKULUS (MEMBUAT PROGRAM PENYELESAIN KALKULUS MENGGUNAKAN BAHASA C++)
 
 Hai semuanya, perkenalkan nama saya Muhamad Aditya Saputra atau biasa dipanggil dengan adit. 
