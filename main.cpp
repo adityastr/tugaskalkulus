@@ -66,6 +66,7 @@ int main()
    pangkat=n2-1;
    hasil2=n2*a2;
    cout<<"f'(x)=";cout<<hasil2;cout<<"x";cout<<"^";cout<<pangkat;
+   break;
 
    case 3:
    int nilaiPangkat3v1,nilaiPangkat3v2;
