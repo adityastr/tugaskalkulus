@@ -15,6 +15,7 @@ int main()
    cout<<"2. Menentukan turunan"<<endl;
    cout<<"3. perkalian variabel sederhana (maksimum 2 variabel)"<<endl;
    cout<<"4. Volume dan Luas permukaan tabung"<<endl;
+   cout<<"5. Integral"<<endl;
    cout<<"masukkan pilihan anda: ";
    cin>>pilih;
 
@@ -68,6 +69,7 @@ int main()
    cout<<"f'(x)=";cout<<hasil2;cout<<"x";cout<<"^";cout<<pangkat;
    break;
 
+   //PERKALIAN ANTAR VARIABEL
    case 3:
    int nilaiPangkat3v1,nilaiPangkat3v2;
    char varPertama3,varKedua3,hasil3;
@@ -91,6 +93,7 @@ int main()
    }
    break;
 
+   //PROGRAM MENGHITUNG LUAS DAN VOLUME TABUNG
    case 4:
    float r4,t4,hasil4;
    int pilihan4,y4;
@@ -127,22 +130,13 @@ int main()
    }
    break;
 
+
+   //MENGHITUNG INTEGRAL TAK TENTU
    case 5:
    int pilihIntegral,konstanta5,n5,hasilIntegralTaktentu;
    cout<<"==================================================================="<<endl;
-   cout<<"=============== MENGHITUNG INTEGRL TAK TENTU DAN TENTU ============"<<endl;
+   cout<<"================== MENGHITUNG INTEGARL TAK TENTU =================="<<endl;
    cout<<"==================================================================="<<endl;
-   cout<<"\n1. Tak tentu";
-   cout<<"\n2. Tentu";
-   cin>>pilihIntegral;
-
-   //INTEGRAL TAK TENTU
-   if (pilihIntegral==1)
-   {
-   cout<<"==================================================================="<<endl;
-   cout<<"====================== INTEGRAL TAK TENTU ========================="<<endl;
-   cout<<"==================================================================="<<endl;
-   //a/(n+1)*x^n+1
    cout<<"Masukan nilai Konstanta : ";
    cin>>konstanta5;
    cout<<"\nMasukan nilai pangkat dari variabel : ";
@@ -154,17 +148,7 @@ int main()
    cout<<konstanta5<<endl;
    cout<<"-"<<" "<<"X"<<"^"<<hasilIntegralTaktentu<<" "<<"+"<<" "<<"C"<<endl;
    cout<<hasilIntegralTaktentu<<endl;
-   }
-
-   //INTEGRAL TENTU
-   else{
-   cout<<"==================================================================="<<endl;
-   cout<<"======================== INTEGRAL TENTU ==========================="<<endl;
-   cout<<"==================================================================="<<endl;
-   //a/(n+1)*x^n+1
-   }
    
-
    break;
 
    default:cout<<"pilihan yang anda maukkan salah";
