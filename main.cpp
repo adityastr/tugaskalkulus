@@ -127,6 +127,46 @@ int main()
    }
    break;
 
+   case 5:
+   int pilihIntegral,konstanta5,n5,hasilIntegralTaktentu;
+   cout<<"==================================================================="<<endl;
+   cout<<"=============== MENGHITUNG INTEGRL TAK TENTU DAN TENTU ============"<<endl;
+   cout<<"==================================================================="<<endl;
+   cout<<"\n1. Tak tentu";
+   cout<<"\n2. Tentu";
+   cin>>pilihIntegral;
+
+   //INTEGRAL TAK TENTU
+   if (pilihIntegral==1)
+   {
+   cout<<"==================================================================="<<endl;
+   cout<<"====================== INTEGRAL TAK TENTU ========================="<<endl;
+   cout<<"==================================================================="<<endl;
+   //a/(n+1)*x^n+1
+   cout<<"Masukan nilai Konstanta : ";
+   cin>>konstanta5;
+   cout<<"\nMasukan nilai pangkat dari variabel : ";
+   cin>>n5;
+
+   hasilIntegralTaktentu=n5+1;
+
+   cout<<"HASIL : \n";
+   cout<<konstanta5<<endl;
+   cout<<"-"<<" "<<"X"<<"^"<<hasilIntegralTaktentu<<" "<<"+"<<" "<<"C"<<endl;
+   cout<<hasilIntegralTaktentu<<endl;
+   }
+
+   //INTEGRAL TENTU
+   else{
+   cout<<"==================================================================="<<endl;
+   cout<<"======================== INTEGRAL TENTU ==========================="<<endl;
+   cout<<"==================================================================="<<endl;
+   //a/(n+1)*x^n+1
+   }
+   
+
+   break;
+
    default:cout<<"pilihan yang anda maukkan salah";
    }
    
